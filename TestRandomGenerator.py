@@ -15,7 +15,7 @@ def generateRand():
 def count():
     for n in sorted(randList.keys()):
         count = randList[n]
-        print(n, "occurs", count, "times")
+        print("Frequency of {}: {}".format(n, count))
 
 
 generateRand()
